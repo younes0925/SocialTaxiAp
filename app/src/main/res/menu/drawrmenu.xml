@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuNavEditProfil" android:title="Edit Profil"  android:icon="@drawable/edit" />
+    <item android:id="@+id/menuNavGetTaxi" android:title="Get a Taxi"  android:icon="@drawable/car" />
+    <item android:id="@+id/menuNavCosts" android:title="Costs"  android:icon="@drawable/cost" />
+    <item android:id="@+id/menuNavPayment" android:title="Payment"  android:icon="@drawable/payment" />
+    <item android:id="@+id/menuNavSetting" android:title="Setting"  android:icon="@drawable/setting" />
+    <item android:id="@+id/menuNavLogOut" android:title="LogOut"  android:icon="@drawable/exit" />
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.younes.socialtaxi.RegisterActivity"
+    android:background="@drawable/creataccount">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Create an account"
+        android:textColor="#0c4775"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="#cc0c4775"
+        android:ems="10"
+        android:hint="Username..."
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ccffffff"
+        android:textColor="#ccffffff"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:paddingLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:background="#cc0c4775"
+        android:textColorHint="#ccffffff"
+        android:textColor="#ccffffff"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:paddingLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:background="#cc0c4775"
+        android:textColorHint="#ccffffff"
+        android:textColor="#ccffffff"/>
+
+    <RadioGroup
+        android:id="@+id/registerRadiogroup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="290dp"
+        android:background="#cc0c4775"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/registerRadiobtnClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Client"
+            android:textColor="#ccffffff"
+            android:textColorLink="@android:color/holo_orange_dark"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/registerRadiobtnDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Driver"
+            android:textColor="#ccffffff"
+            android:textColorLink="@android:color/holo_orange_dark"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerRadiogroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"
+        android:background="#cc0c4775"
+        android:textStyle="bold"
+        android:textColor="#ccffffff"/>
+
+</RelativeLayout>
